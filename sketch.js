@@ -151,7 +151,11 @@ function draw(){
     drawSprites();
 }
 
- 
+ function windoResized()
+{
+  resizeCanvas(displayWidth,displayHeight)
+}
+
     
       
     
